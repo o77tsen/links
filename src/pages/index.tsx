@@ -4,9 +4,13 @@ import Main from "@/content/main.mdx";
 export default function Home() {
   return (
     <>
-      <MDXProvider>
-        <Main />
-      </MDXProvider>
+      <div className={"container"}>
+        <div className={"content"}>
+          <MDXProvider>
+            <Main />
+          </MDXProvider>
+        </div>
+      </div>
     </>
   )
 }
