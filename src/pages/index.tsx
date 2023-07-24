@@ -1,5 +1,6 @@
 import { MDXProvider } from "@mdx-js/react";
 import Main from "@/content/main.mdx";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
             <Main />
           </MDXProvider>
         </div>
+        <Footer />
       </div>
     </>
   )

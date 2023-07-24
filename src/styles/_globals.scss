@@ -100,3 +100,39 @@ h2 {
     text-align: center;
     opacity: 0.80;
 }
+
+.img {
+    display: block;
+    height: 10rem;
+    width: 10rem;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 0.75rem;
+    position: relative;
+    border-radius: 50%;
+}
+
+footer {
+    display: block;
+    box-sizing: border-box;
+    width: 40%;
+    text-align: center;
+    position: fixed;
+    background-color: $background-secondary;
+    border-top-left-radius: $corner-left-radius;
+    border-top-right-radius: $corner-right-radius;
+    border: 1px solid #c4ccf126;
+    bottom: -14px;
+    font-size: 12px;
+    padding: 6px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    @media (max-width: 600px) {
+        width: 100%;
+        bottom: 0;
+    }
+}
