@@ -1,4 +1,4 @@
-import { FaTwitter, FaUserAstronaut, FaMusic, FaRaspberryPi } from "react-icons/fa";
+import { FaTwitter, FaUserAstronaut, FaMusic, FaRaspberryPi, FaGithubAlt } from "react-icons/fa";
 import { HiUser } from "react-icons/hi";
 import { RiAtFill, RiUserFill } from "react-icons/ri";
 import { SiDiscord, SiKofi, SiTrello, SiMyanimelist } from "react-icons/si";
@@ -13,6 +13,7 @@ export default {
     FaUserAstronaut,
     FaMusic,
     FaRaspberryPi,
+    FaGithubAlt,
     RiAtFill,
     RiUserFill,
     SiDiscord,
