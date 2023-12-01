@@ -25,15 +25,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 .content {
     flex-grow: 1;
     max-width: 20rem;
     padding: 3rem 1.5rem;
-    width: 100%;
-    margin: auto;
+    //width: 100%;
+    //margin: auto;
     background-color: $background-primary;
     border-radius: 1rem;
 }
