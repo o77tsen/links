@@ -1,18 +1,20 @@
 $accent: #87A1FF;
-$background-primary: #1A1B26;
-$background-secondary: #16161E;
+$background-primary: #ffffff;
+$background-secondary: #ff7bae;
 $background-accent: #1E202E;
 
 $border-color: #87a1ff1c;
-$radius: 6px;
+$radius: 10px;
 
-$text-color: #c4ccf1;
-$text-hover: #edf6fecc;
+$text-color: #f64a7e;
+$text-hover: #ffffff;
 $text-active: #141418;
 
 $button-color: #6183bb17;
-$button-hover: #6183bb32;
+$button-hover: #f64a7e;
 $button-active: #2a2b3c;
 
 $corner-left-radius: 10px;
 $corner-right-radius: 10px;
+
+$transition: all 0.2s ease-in-out;

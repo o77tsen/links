@@ -4,6 +4,13 @@
     align-items: center;
 }
 
+@mixin flex-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 @mixin heading-styles($size, $weight, $margin) {
     font-size: $size;
     font-weight: $weight;

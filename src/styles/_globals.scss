@@ -30,7 +30,7 @@ body {
 
 .content {
     flex-grow: 1;
-    max-width: 25rem;
+    max-width: 20rem;
     padding: 3rem 1.5rem;
     width: 100%;
     margin: auto;
@@ -43,15 +43,16 @@ body {
     box-sizing: border-box;
     border-radius: $radius;
     -webkit-tap-highlight-color: transparent;
-    font-size: 1rem;
+    font-size: .9rem;
     text-align: center;
-    padding: 1rem 3.5rem 1rem 3.5rem;
+    padding: .8rem 3.5rem .8rem 3.5rem;
     position: relative;
     background-color: $button-color;
     text-decoration: none;
-    margin-bottom: 0.75rem;
+    margin: 0.75rem;
     color: $text-color;
     border: 0;
+    transition: $transition;
 
     .icon {
         font-size: 18px;
@@ -70,12 +71,42 @@ body {
     }
 
     &:focus {
+        background-color: $button-hover;
         color: $text-hover;
     }
 
     &:active {
-        background-color: $accent;
-        color: $text-active;
+        background-color: $button-hover;
+        color: $text-hover;
+    }
+}
+
+.socials {
+    @include flex-between;
+    color: $text-color;
+    gap: .6rem;
+
+    .mini-icon {
+        font-size: 18px;
+        color: $text-color;
+        padding: .6rem;
+        transition: $transition;
+    
+        &:hover {
+            background-color: $button-color;
+            border-radius: $radius;
+            padding: .6rem;
+        }
+
+        &:focus {
+            background-color: $button-color;
+            color: $text-color;
+        }
+    
+        &:active {
+            background-color: $button-color;
+            color: $text-color;
+        }
     }
 }
 
@@ -100,13 +131,13 @@ h2 {
 
 .img {
     display: block;
-    height: 10rem;
-    width: 10rem;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     margin: auto;
     margin-bottom: 0.75rem;
     position: relative;
-    border-radius: 50%;
+    // border-radius: 50%;
 }
 
 footer {

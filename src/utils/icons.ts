@@ -6,6 +6,8 @@ import { IoIosRocket } from "react-icons/io";
 import { GiGalaxy, GiStarSwirl, GiWhiteBook, GiRingedPlanet } from "react-icons/gi";
 import { BsStars, BsFillSuitHeartFill, BsFillStarFill } from "react-icons/bs";
 import { BiSolidPlanet } from "react-icons/bi";
+import { IoSparklesSharp } from "react-icons/io5";
+import { PiButterflyFill } from "react-icons/pi";
 
 export default {
     HiUser,
@@ -28,5 +30,7 @@ export default {
     BsStars,
     BsFillSuitHeartFill,
     BiSolidPlanet,
-    BsFillStarFill
+    BsFillStarFill,
+    IoSparklesSharp,
+    PiButterflyFill,
 };

@@ -1,18 +1,18 @@
 import { DefaultSeoProps } from "next-seo";
 
 const config: DefaultSeoProps = {
-    title: "@UA",
+    title: "unamona",
     description: "Navigating the Cosmos of Social Media: Explore with @UnitAndro 🚀",
-    themeColor: "#87A1FF",
+    themeColor: "#ff7bae",
     openGraph: {
-        "title": "@UA",
+        "title": "unamona",
         type: "website",
         description: "Navigating the Cosmos of Social Media: Explore with @UnitAndro 🚀",
-        siteName: "@UA"
+        siteName: "unamona"
     },
     twitter: {
-        handle: "@unitandro",
-        site: "@unitandro",
+        handle: "unamona",
+        site: "unamona",
         cardType: "summary_large_image"
     },
     additionalLinkTags: [

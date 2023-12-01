@@ -7,7 +7,6 @@ interface Props {
 }
 
 const Button: React.FC<Props> = ({ icon, href, children }) => {
-
     return (
         <a href={href} className="btn" target="_blank" rel="noopener noreferrer">
             {icon && <span className="icon">{icon}</span>}

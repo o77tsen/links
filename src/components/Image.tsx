@@ -9,7 +9,7 @@ interface ImageProps {
     className?: string;
 }
 
-const Image: React.FC<ImageProps> = ({ src, alt, height, width, className }) => {
+const Image: React.FC<ImageProps> = ({ src, alt, width, height, className }) => {
     return (
         <NextImage
             src={src}
